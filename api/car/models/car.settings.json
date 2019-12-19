@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "cars",
+  "info": {
+    "name": "car"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "string",
+      "required": true,
+      "default": "0"
+    },
+    "properties": {
+      "type": "component",
+      "repeatable": false,
+      "component": "property.car-properties"
+    }
+  }
+}

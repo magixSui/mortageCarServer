@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "components_property_car_properties",
+  "info": {
+    "name": "car_property",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "displacement": {
+      "type": "string"
+    },
+    "drive": {
+      "type": "string"
+    },
+    "mileage": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    }
+  }
+}
